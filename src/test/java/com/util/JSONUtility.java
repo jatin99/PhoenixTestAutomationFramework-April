@@ -14,7 +14,7 @@ public class JSONUtility {
 	
 	public static Environment readJSONConfig(String env) throws FileNotFoundException {
 		Gson gson = new Gson();
-		File jsonFile = new File(System.getProperty("user.dir")+"\\config\\config.json");
+		File jsonFile = new File(System.getProperty("user.dir")+"//config//config.json");
 		FileReader fileReader = new FileReader(jsonFile);
 		Config config=gson.fromJson(fileReader, Config.class);
 		

@@ -77,7 +77,7 @@ public class TestUtility {
 		// File
 
 		System.out.println(System.getProperty("user.dir"));
-		File myfile = new File(System.getProperty("user.dir") + "\\config\\" + env + ".properties");
+		File myfile = new File(System.getProperty("user.dir") + "//config//" + env + ".properties");
 		Properties properties = new Properties();
 
 		FileReader fileReader;
