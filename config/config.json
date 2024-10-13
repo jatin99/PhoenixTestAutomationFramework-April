@@ -1,0 +1,24 @@
+{
+	"environments":{
+		
+		"dev":{
+			"url":"http://139.59.91.96:9000",
+			"username":"admindev",
+			"password":"pass123"
+		},
+		
+		"qa":{
+					"url":"http://139.59.91.96:9000",
+					"username":"adminQA",
+								"password":"pass1234"
+			},
+			
+			"uat":{
+								"url":"http://139.59.91.96:9000",
+								"username":"adminUAT",
+											"password":"pass123456"
+						}
+	}
+	
+	
+}
